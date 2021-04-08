@@ -1,7 +1,11 @@
 # Character Creation Workshop
 
-In this workshop, you'll build a Sims-style character creation screen.
+Finished up to Exercise 4!
 
+From Josh W. Comeau's "CSS for JavaScript Devlepers" course.
+https://courses.joshwcomeau.com/css-for-js/02-rendering-logic-2/13-fixed
+
+In this workshop, you'll build a Sims-style character creation screen.
 
 ## Mockups
 
@@ -48,14 +52,10 @@ This project uses **CSS Modules**. CSS modules are ultimately very similar to va
 
 ```js
 /* Something.js */
-import styles from './Something.module.css';
+import styles from "./Something.module.css";
 
 function Something() {
-  return (
-    <div className={styles.wrapper}>
-      I'll be 500px wide!
-    </div>
-  );
+  return <div className={styles.wrapper}>I'll be 500px wide!</div>;
 }
 ```
 
@@ -112,7 +112,6 @@ On mobile devices, the cards should stack horizontally, and sit near the bottom 
 <img alt="Screen recording, showing a mobile variant of the application" src="./docs/mobile-variant.gif" style="max-width: 100%" />
 
 **NOTE:** This is a challenging stretch goal! It may require some CSS features we haven't covered yet. This is meant as an extra challenge for advanced students. Feel free to skip it!
-
 
 ## Submissions
 
