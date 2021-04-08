@@ -34,6 +34,7 @@ function App() {
           </p>
         </header>
 
+        <div className={styles.perspectiveDecoration}></div>
         <div className={styles.controlColumn}>
           <ControlPane
             title="Bodies"
