@@ -33,6 +33,7 @@ function App() {
             What sort of adventure will you embark on?{" "}
           </p>
         </header>
+
         <div className={styles.controlColumn}>
           <ControlPane
             title="Bodies"
@@ -71,6 +72,7 @@ function App() {
             handleSelectOption={setClothesColor}
           />
         </div>
+
         <div className={styles.characterWrapper}>
           <Character
             body={body}
