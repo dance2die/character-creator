@@ -3,7 +3,7 @@
 Finished up to Exercise 4!
 
 From Josh W. Comeau's "CSS for JavaScript Devlepers" course.
-https://courses.joshwcomeau.com/css-for-js/02-rendering-logic-2/13-fixed
+https://courses.joshwcomeau.com/css-for-js/02-rendering-logic-2/19-character-workshop
 
 In this workshop, you'll build a Sims-style character creation screen.
 
